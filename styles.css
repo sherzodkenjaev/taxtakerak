@@ -1,0 +1,57 @@
+label {
+  background-color: #4095c6;
+  color: white;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.javob {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.javob > p {
+  margin:10px;
+  color: #686868;
+}
+
+.container {
+  font-family: 'Londrina Solid', cursive;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 100px
+}
+
+input {
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  background: #F0F0F0;
+  height: 40px;
+}
+
+h1 {
+  font-size: 2.3rem;
+  color: #686868;
+}
+
+button {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4eb5f1;
+  color: White;
+
+}
+
+button:hover {
+  background-color: #4095c6;
+}
+
+input::placeholder {
+  color: #C8C8C8;
+}
