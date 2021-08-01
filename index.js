@@ -7,5 +7,5 @@ document.getElementById('button').onclick = function changeContent() {
 
   var result = (uyEni*uyBoyi)/(taxtaEni*taxtaBoyi);
 
-  return document.getElementById("label").innerHTML = result.toPrecision(4);
+  return document.getElementById("label").innerHTML = Math.round(result);
   }
